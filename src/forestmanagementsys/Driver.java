@@ -3,7 +3,7 @@ package forestmanagementsys;
 import java.sql.*;
 
 
-
+//THIS CLASS IS A USER CREATED CLASS TO REDUCE REPETITION WHEN ACESSING THE MY SQL DATATBASE
 public class Driver
 {
     
@@ -13,7 +13,7 @@ public class Driver
     String dbName="forestMDB";
     String URL="jdbc:mysql:"+serverName+":"+portNumber+"/"+dbName+"?autoReconnect=true&amp;allowMultiQueries=true";
     String username="admrkm";
-    String password="Rem@17kim";
+    String password="YOUR_PASSWORD";
     Connection connection=null;
     
     public Driver()
